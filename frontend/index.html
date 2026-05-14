@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="chat-wrapper">
+        <div class="header">
+            <img src="https://cdn-icons-png.flaticon.com/512/2913/2913465.png" class="logo">
+            <h2>Alliance Insurance Assistant</h2>
+        </div>
+
+        <div id="chat-box" class="chat-box"></div>
+
+        <div id="typing" class="typing hidden">Bot is typing...</div>
+
+        <div class="input-area">
+            <input id="msg" type="text" placeholder="Type your question..." onkeydown="if(event.key==='Enter') sendMsg()">
+            <button onclick="sendMsg()">➤</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
