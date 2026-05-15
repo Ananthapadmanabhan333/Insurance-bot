@@ -60,5 +60,5 @@ Developed by **[Ananthapadmanabhan D S](https://github.com/Ananthapadmanabhan333
 
 ---
 <p align="center">
-  Built with ❤️ for the future of InsurTech.
+  Built by Ananthapadmanabhan for the future of InsurTech.
 </p>
